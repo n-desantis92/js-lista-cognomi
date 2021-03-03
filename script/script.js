@@ -28,7 +28,7 @@ for (var i = 0; i < lista.length + 1; i++) {
     cognomeTrovato = true;
     cognomeTrovato += parseInt([i]);
     console.log([i]);
-    document.getElementById('numero').innerHTML = cognomeTrovato;
+    document.getElementById('numero').innerHTML = "La posizione del tuo cognome è " + cognomeTrovato;
   }
 }
 
